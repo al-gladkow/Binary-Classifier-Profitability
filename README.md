@@ -28,10 +28,6 @@ Using your knowledge of Pandas and `StandardScaler` from scikit-learn, preproces
     
 4.  Add the numerical variables of the original DataFrame to the DataFrame that contains the encoded variables
     
-    **note**
-    
-    To complete this step, use the Pandas `concat` function.
-    
 5.  Using the preprocessed data, create the features (`X`) and target (`y`) datasets. The “IS_SUCCESSFUL” column in the preprocessed DataFrame should define the target dataset. The remaining columns should define the features dataset.
     
 6.  Split the features and target datasets into training and testing datasets.
